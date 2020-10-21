@@ -1,0 +1,29 @@
+{
+    "name": "ruslandev/geocoding",
+    "description": "nothing",
+    "authors": [
+        {
+            "name": "Ruslan Pylypenko",
+            "email": "ruslan.php.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "geocoding\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/LocatorTest.php"
+        ],
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php":">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    }
+}
